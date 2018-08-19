@@ -33,7 +33,6 @@ public class ProductService {
     }
 
     public List<ProductModel> read() {
-        System.out.println(productRepository.findAll());
         return productConventer.ProductConvert(productRepository.findAll());
     }
 

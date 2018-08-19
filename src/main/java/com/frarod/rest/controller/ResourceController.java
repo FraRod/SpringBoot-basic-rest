@@ -1,6 +1,5 @@
 package com.frarod.rest.controller;
 
-import com.frarod.rest.converter.ProductConventer;
 import com.frarod.rest.entity.Product;
 import com.frarod.rest.model.ProductModel;
 import com.frarod.rest.service.Impl.ProductService;
@@ -9,7 +8,6 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.lang.invoke.MethodType;
 import java.util.List;
 
 @RestController
